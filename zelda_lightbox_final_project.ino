@@ -353,17 +353,3 @@ void pixelDanceAndSong() {
     currentMode = previousMode;
   }
 }
-
-void chillFadeChop() {
-  uint16_t pix, colors;
-  for (colors = 0; colors < 256; colors++) { // 3 cycles of all colors on wheel
-    if (millis() > chillEvent) {
-      for (pix = 0; pix < NUMPIXELS; pix++) {
-        pixels.setPixelColor(pix, Wheel((256 / NUMPIXELS + colors) & 255));
-      }
-      pixels.show();
-      chillEvent = millis() + CHILL_TIMING;
-    }
-  }
-}
-
