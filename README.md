@@ -15,4 +15,5 @@ This Legend of Zelda themed interactive lightbox has 3 modes that feature music 
 * 8 NeoPixel RGB Strip (https://www.adafruit.com/product/1426)
 * ⅛ audio jack
 
-## [Video Preview](https://vimeo.com/262429159)
+## Video of Project
+<a href=https://vimeo.com/262429159><img src="https://github.com/diazjenn/InteractiveLightBox/blob/master/front_lightbox.jpg" width="350"></a>
